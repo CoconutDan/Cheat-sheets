@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Change the number to adjust the number of columns */
+    gap: 10px; /* Change the value to adjust the gap between grid items */
+  }
+  
+  .grid-item {
+    width: 100%; /* Adjust the width of the grid items */
+  }
+  
+  .grid-item img {
+    width: 100%; /* Adjust the width of the images inside grid items */
+    height: auto;
+}
+
+body {
+
+    background-color: lightblue;
+}
+
