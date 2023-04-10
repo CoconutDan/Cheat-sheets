@@ -1,0 +1,26 @@
+div {
+    padding: 30px 30px;
+    text-align: center;
+    margin: 10px 0px 0px 350px;
+    color: #EEEEEE;
+    width: 25%;
+    position:relative;
+    clear: right;
+    overflow: hidden;
+  }
+  
+  .walter-facts {
+    background-color: #548CA8;
+  }
+  
+  .main-content {
+    background-color: #476072;
+  }
+  
+  .contact-us {
+    background-color: #334257;
+  }
+
+  a.walter-facts {max-width: 200px;
+
+}
