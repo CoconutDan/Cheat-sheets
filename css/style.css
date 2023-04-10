@@ -1,26 +1,55 @@
 div {
     padding: 30px 30px;
     text-align: center;
-    margin: 10px 0px 0px 350px;
+    margin: 10px 0px 0px 0px;
     color: #EEEEEE;
     width: 25%;
-    position:relative;
-    clear: right;
-    overflow: hidden;
+    position: relative;
+
+  }
+
+  div.more-resources {
+    width:100%;
+    height:250px;
+    overflow:hidden;
+    background-color:black;
+
+
   }
   
-  .walter-facts {
+  div.walter-facts {
     background-color: #548CA8;
+    display:inline-block;
+    float:left;
   }
   
-  .main-content {
+  div.beep {
     background-color: #476072;
+    display:inline-block;
+
   }
   
-  .contact-us {
+  div.boop {
     background-color: #334257;
+    display:inline-block;
   }
 
-  a.walter-facts {max-width: 200px;
+  a.walter-facts {
+    display: inline-block;
+			padding: 50px 80px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			text-decoration: none;
+			color: #080420;
+            font-size:x-large;
+            background-color: beige;
+            font-weight:bold;
+            
 
+            
+
+
+    
 }
+  
+
