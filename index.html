@@ -4,7 +4,7 @@
 
 <!--All html documents need to begin with <!DOCTYPE html> -->
 
-<html lang="en">
+<html lang="en" class="light">
 
     <!--Afterwards you need an opening and closing of html.
     It is not completely necessary, but it is a good idea to
@@ -31,13 +31,30 @@
 
     <!--Your <body> contains the bulk of textual data on the webpage-->
 
-<h1>Goober loves Walter.</h1>
-<h2>Goober loves Walter a lot.</h2>
+<h1 style="color: red; font-size: 50px;">Goober loves Walter.</h1>
+
+<!-- from this point on, all instructions that involve css
+will begin with a %-->
+
+<!--%style= allows you to change the look of the font in the 
+    selected chain. it must be inside of the opening command
+    color: changes the color and font-size: changes the font size
+    you can seperate each attribute with a ;-->
+
+<h2 style="color: aquamarine; font-size: 35px;
+font-family: sans-serif;">
+Goober loves Walter a lot.
+</h2>
+
+<!--%-->
+
+
 <h3>Goober loves Walter so much, in fact, that Goober
     is sad whenever Walter is not around.</h3>
 
     <!--<strong> creates bold text
         <em> createst italicized text
+        <h1/2/3/4/5/6> createsed text
         <h1/2/3/4/5/6> creates headers of different sizes
         <p> createst paragraphs-->
 
@@ -61,9 +78,9 @@
 
 <ol>
     <li>Walter</li>
-<li> Walter</li>
-<li> Walter</li>
-<li>Everything else</li>
+    <li> Walter</li>
+    <li> Walter</li>
+    <li>Everything else</li>
 </ol>
 
 <h2>Examples of things that aren't as good as Walter to Goober:</h2>
@@ -88,13 +105,20 @@
 
         <!---using <img> you can post an image using html.
         img is self contained and doesn't need closing.
-    in this example I would use <img src=./walter-pics/walter.jpg>
-    to show the image outright on the webpage. I didn't inclue it
-    directly on this page because it takes up too much space.-->
+        in this example I would use 
+        <img src="./walter-pics/walter.jpg" alt="walter is good">
+        to show the image outright on the webpage. I didn't inclue it
+     directly on this page because it takes up too much space.
+     I don't know how to resize the image yet :(-->
 
 
+    <!-- The <img> tag should contain 2 attributes
+        src="[image location]"
+        alt="[Description of image]"
 
-    </p>
+     </p>
+
+
 
 </body>
 
